@@ -14,7 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+#*.dll
 
 # Fortran module files
 *.mod
@@ -24,9 +24,33 @@
 *.lai
 *.la
 *.a
-*.lib
+#*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Catalogs
+inter/
+builder/
+intermediate/
+.vs/
+
+# Other
+*.pdb
+*.json
+*.cmake
+*.bin
+/include/glm/out/build/x64-Debug (default)
+/include/tinyxml/Debugtinyxml/tinyxml.tlog
+/include/tinyxml/Debugtinyxml
+/include/tinyxml/docs
+/include/tinyxml/Releasetinyxml/tinyxml.tlog
+/include/tinyxml/Releasetinyxml
+/include/tinyxml/ReleasetinyxmlSTL
+/include/tinyxml/ReleasetinyXmlTest/tinyXmlTest.tlog
+/include/tinyxml/ReleasetinyXmlTest
+/include/tinyxml/x64
+/include/tinyxml
+/res/img/Без имени-1.psd
